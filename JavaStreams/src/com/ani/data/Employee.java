@@ -45,4 +45,10 @@ public class Employee {
 	private String lastName;
 	private int id;
 	private int age;
+	
+	
+	public static void print(Employee e) {
+		System.out.println(e.getFirstName());
+	}
+
 }
